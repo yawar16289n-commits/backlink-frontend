@@ -8,7 +8,7 @@ import BacklinkFormModal from '../components/BacklinkFormModal';
 import SearchFilters from '../components/SearchFilters';
 import BacklinkTable from '../components/BacklinkTable';
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'https://backlink-backend-f185.onrender.com/api';
 
 export default function Home() {
   const [websites, setWebsites] = useState([]);
